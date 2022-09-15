@@ -8,7 +8,7 @@
 
 def aantal_karakters(zin):
     """ return het aantal letters in een zin """
-    return None
+    return len(zin)
 
 # print( aantal_karakters("Hallo") )
 # print( aantal_karakters("2 plus 2 is 4") )
@@ -19,20 +19,29 @@ def titel(zin):
     
         >>> print( titel("de kat krabt") ) --> De Kat Krabt
     """
-    nieuwe_zin = zin.title()
-    return ( nieuwe_zin, zin )
+    zin1= zin.title()
+    return zin1
 
 # print( titel("de kat krabt") )
 # print( titel("krullen van de trap af") )
 # print( titel("ditisslechts1woord") ) 
 
 def kort_af(woord):
-    """ return de eerste, middelste en laatste karakter van een woord 
+    """ return de eerste, middelste en laatste karakter van een wokord 
     
         Indien het woord even is, return enkel het eerste en laatste karakter.
         >>> print( hoofdletter("krabt") ) --> kat
     """
-    return None
+    resultaat = []
+    lengte = len(woord) 
+    eerste_karakter= woord[0]
+    resultaat.append(eerste_karakter)
+    middelste_karakter = woord[(lengte//2)]
+    if lengte %2 != 0:
+        resultaat.append(middelste_karakter)
+    laatste_karakter= woord[lengte-1]
+    resultaat.append(laatste_karakter)
+    return resultaat
 
 # print( kort_af("krabt") )
 # print( kort_af("belgie") )
@@ -44,8 +53,12 @@ def vervang(woord, kar):
         Vervang ieder karakter kar door een uitroepteken.
         >>> print( vervang("katten", "t") ) --> ka!!en
     """
-    return None
+    nieuw_woord= woord.replace(kar, "!")
+    return nieuw_woord
 
+    # for index,karakter in enumerate(woord):
+    #     if karakter == kar:
+    #         karakter = "!"
 # print( vervang("katten", "t") )
 # print( vervang("de koetsier poetst de postkoets met postkoetspoets", "oe") )
 # print( vervang("Nog een paar tongbrekers", "i") )
@@ -57,7 +70,7 @@ def is_laag(zin):
         False: de zin bevat ook grote letters.
         >>> print( vervang("Dit is fout!") ) --> False
     """
-    return None
+    return zin.islower()
 
 # print( is_laag("Dit is fout!") )
 # print( is_laag("een twee drie vIer") )
@@ -74,6 +87,12 @@ def is_getal(kar):
         >>> print( is_getal("5") ) --> 25
                                    --> True
     """
+    karakter=kar.isnumeric()
+    if karakter ==True:
+        getal= int(kar)
+        kwadraat = getal **2
+    return karakter, kwadraat
+
 
 # print( is_getal("5")  )
 # print( is_getal("e")  )
@@ -84,7 +103,8 @@ def draai_om(zin):
 
         >>> print( draai_om("Palindroom") ) --> moordnilaP
     """
-    return None
+    omgedraaide_zin = zin [::-1]
+    return omgedraaide_zin
 
 # print( draai_om("Palindroom")  )
 # print( draai_om("de kat krabt")  )
@@ -95,7 +115,12 @@ def tel_klinkers(zin):
 
         >>> print( tel_klinkers("De kat krabt") ) --> 3
     """
-    return None
+    klinkers = ["a","e","u","i","o"]
+    aantal_klinkers=0
+    for i in klinkers:
+        aantal = zin.count(i)
+        aantal_klinkers +=aantal
+    return aantal_klinkers
 
 # print( tel_klinkers("De kat krabt") )
 # print( tel_klinkers("de krullen van de trap af") )

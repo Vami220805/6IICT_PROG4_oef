@@ -2,7 +2,7 @@
 # Testen kan MBV de oproepen onder iedere oefeningen.
 # Tip: gebruik CTRL + / om meerdere lijnen in/uit commentaar te zetten.
 
-# Deze websites geven meer info over de verschillende methodes van strings:
+# Deze websites geven meer info over de verschillende methodes van lijsten:
 # https://www.w3schools.com/python/python_ref_list.asp
 # https://www.programiz.com/python-programming/methods/list
 
