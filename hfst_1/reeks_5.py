@@ -11,7 +11,10 @@ def doorzoek_lijst(lijst, waarde):
 
         >>> print( doorzoek_lijst([1,4,2,5,9], 9) ) --> 4
     """
-    return None
+    lengte = len(lijst)
+    for i in range(lengte):
+        if lijst[i] == waarde:
+            return i
 
 # print( doorzoek_lijst([1,4,2,5,9], 9) )
 # print( doorzoek_lijst([1,4,2,5,9], 4) )
@@ -36,8 +39,16 @@ def doorzoek_telefoonboek(boek, persoon):
 
         >>> print( doorzoek_telefoonboek(boek, "Kor Neel") ) --> "+32 453 231456"
     """
-    return None
-
+    aantal_niet_gevonden = 0
+    for rij in boek:
+        for element in rij:
+            if persoon in rij:
+                return rij[1]
+            else:
+                aantal_niet_gevonden = aantal_niet_gevonden +1
+    if aantal_niet_gevonden == len(boek):
+        return None
+        
 # print( doorzoek_telefoonboek(boek, "Kor Neel") )
 # print( doorzoek_telefoonboek(boek, "Jan Janssen") )
 # print( doorzoek_telefoonboek(boek, "Piet Neel") )
@@ -56,12 +67,28 @@ def voeg_toe_telefoonboek(boek, persoon, nummer):
                 ["Jan Janssen", "+32 470 998301"],
                 ["Piet Joris", "+32 483 313220"],
                 ["Kor Neel", "+32 453 231456"],
-                ["Piet Dirkx", "123]
+                ["Piet Dirkx", "123"]
             ]
     """
-    return None
+    combinatie_in_rij=0
+    nummer_in_rij=0
+    for rij in boek:
+        if persoon in rij:
+            if nummer in rij:
+                combinatie_in_rij= combinatie_in_rij +1
+        elif nummer in rij:
+            nummer_in_rij = nummer_in_rij+1
 
-# print( voeg_toe_telefoonboek(boek, "Piet Dirkx", "123") )
+    if combinatie_in_rij>=1:
+        return "Gegevens reeds in boek"
+    elif nummer_in_rij>=1:
+        return "Nummer al bezet"
+    else: 
+        nieuwe_lijst = [persoon, nummer]
+        boek.append(nieuwe_lijst)
+        return boek
+
+# print( voeg_toe_telefoonboek(boek, "Kor Neel", "123") )
 # print( voeg_toe_telefoonboek(boek, "Piet Joris", "+32 483 313220") )
 # print( voeg_toe_telefoonboek(boek, "Jaak Jean" , "+32 470 998301") )
 
