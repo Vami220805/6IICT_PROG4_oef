@@ -8,3 +8,12 @@ engels_nederlands = { "last":"laatste", "week":"week", "the":"de",
 "sheds":"schuren" }
 
 zin = input("Geef een zin in het engels: ")
+lijst_gesplitst = zin.split()
+for woord in lijst_gesplitst:
+    if woord in engels_nederlands:
+        engels =engels_nederlands.get(woord, 1)
+        locatie = lijst_gesplitst.index(woord)
+        lijst_gesplitst.remove(woord)
+        lijst_gesplitst.insert(locatie, engels)
+zin = " ".join(lijst_gesplitst)
+print(zin)
