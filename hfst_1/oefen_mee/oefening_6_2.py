@@ -7,13 +7,28 @@ engels_nederlands = { "last":"laatste", "week":"week", "the":"de",
 "composers":"componisten", "two":"twee", "shed":"schuur",
 "sheds":"schuren" }
 
-zin = input("Geef een zin in het engels: ")
+zin = input("Geef een zin in het nederlands/engels: ")
 lijst_gesplitst = zin.split()
+key_list = list(engels_nederlands.keys())
+val_list = list(engels_nederlands.values())
 for woord in lijst_gesplitst:
     if woord in engels_nederlands:
         nederlands =engels_nederlands.get(woord, 1)
         locatie = lijst_gesplitst.index(woord)
         lijst_gesplitst.remove(woord)
         lijst_gesplitst.insert(locatie, nederlands)
+    else:
+        position = val_list.index(woord)
+        engels = key_list[position]
+        if engels in engels_nederlands:
+            print(woord)
+            locatie = lijst_gesplitst.index(woord)
+            lijst_gesplitst.remove(woord)
+            lijst_gesplitst.insert(locatie, engels)
+print(lijst_gesplitst)
 zin = " ".join(lijst_gesplitst)
 print(zin)
+
+
+
+# nederlands naar engels!!!!!!!!!!!!!!!
