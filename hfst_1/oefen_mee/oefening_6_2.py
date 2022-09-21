@@ -18,14 +18,15 @@ for woord in lijst_gesplitst:
         lijst_gesplitst.remove(woord)
         lijst_gesplitst.insert(locatie, nederlands)
     else:
-        position = val_list.index(woord)
-        engels = key_list[position]
-        if engels in engels_nederlands:
-            print(woord)
-            locatie = lijst_gesplitst.index(woord)
-            lijst_gesplitst.remove(woord)
-            lijst_gesplitst.insert(locatie, engels)
-print(lijst_gesplitst)
+        if woord not in val_list:
+            break
+        else: 
+            position = val_list.index(woord)
+            engels = key_list[position]
+            if engels in engels_nederlands:
+                locatie = lijst_gesplitst.index(woord)
+                lijst_gesplitst.remove(woord)
+                lijst_gesplitst.insert(locatie, engels)
 zin = " ".join(lijst_gesplitst)
 print(zin)
 

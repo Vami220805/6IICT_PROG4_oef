@@ -12,12 +12,15 @@ lijst_gesplitst = zin.split()
 key_list = list(engels_nederlands.keys())
 val_list = list(engels_nederlands.values())
 for woord in lijst_gesplitst:
-    position = val_list.index(woord)
-    engels = key_list[position]
-    if engels in engels_nederlands:
-        locatie = lijst_gesplitst.index(woord)
-        lijst_gesplitst.remove(woord)
-        lijst_gesplitst.insert(locatie, engels)
+    if woord not in val_list:
+        break
+    else: 
+        position = val_list.index(woord)
+        engels = key_list[position]
+        if engels in engels_nederlands:
+            locatie = lijst_gesplitst.index(woord)
+            lijst_gesplitst.remove(woord)
+            lijst_gesplitst.insert(locatie, engels)
 zin = " ".join(lijst_gesplitst)
 print(zin)
 
