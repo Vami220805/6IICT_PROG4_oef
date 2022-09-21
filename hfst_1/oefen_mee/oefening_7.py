@@ -25,8 +25,20 @@ dict_dict = {
     3: {'naam': 'Kurt',  'leeftijd': 23}
 }
 
-for key in dict_dict:  
+# for key in dict_dict:  
+#     print(key)
+#     for element in dict_dict[key]:
+#         print(element)
+#         print(dict_dict[key][element])
+
+# for key in dict_dict:
+#     print(key)
+#     for key,value in dict_dict[key].items():
+#         print(key)
+#         print(value)
+
+for key,dict in dict_dict.items():
     print(key)
-    for element in dict_dict[key]:
-        print(element)
-        print(dict_dict[key][element])
+    for key,value in dict.items():
+        print(key)
+        print(value)
