@@ -9,6 +9,16 @@ puntenlijst = [
     ["Q","Z"]                                           # 7 punten
 ]
 
+# def punten_berekenen(puntenlijst):
+#     dict = {}
+#     for counter,lijst_met_aantal_punten in enumerate(puntenlijst):
+#         for letter in lijst_met_aantal_punten:
+#             kleine_letter = letter.lower()
+#             dict[kleine_letter] = counter + 1
+#     gesorteerde_dict = sorted(dict.items())
+#     return gesorteerde_dict
+# print(punten_berekenen(puntenlijst))
+
 """ Niveau 2"""
 puntenlijst_en = [
     ["A", "E", "I", "O", "U", "L", "N", "S", "T"],      # 1 punt
@@ -19,3 +29,13 @@ puntenlijst_en = [
     ["J", "X"],                                         # 6 punten
     ["C","Z"]                                           # 7 punten
 ]
+
+def punten_berekenen_niveau2(puntenlijst):
+    dict = {}
+    for counter,lijst_met_aantal_punten in enumerate(puntenlijst):
+        for letter in lijst_met_aantal_punten:
+            kleine_letter = letter.lower()
+            dict[kleine_letter] = counter + 1
+    gesorteerde_dict = sorted(dict.items())
+    return gesorteerde_dict
+print(punten_berekenen_niveau2(puntenlijst_en))
