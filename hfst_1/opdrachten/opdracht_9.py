@@ -46,20 +46,20 @@ punten_berekenen_niveau2(puntenlijst_en)
 """ Niveau 3"""
 ##gemaakt met de dictonary
 
-# def spel_dictonary():
-#     woord = input("Geef een woord op om het spel te starten: ")
-#     dict = punten_berekenen(puntenlijst)
-#     som = 0
-#     for letter in woord:
-#         print(letter)
-#         if letter in dict:
-#             value = dict.get(letter)
-#             som = som + value
-#     print(f"Uw score is {som}")
-#     return dict
-# spel_dictonary()
+def spel_dictonary():
+    woord = input("Geef een woord op om het spel te starten: ")
+    dict = punten_berekenen(puntenlijst)
+    som = 0
+    for letter in woord:
+        print(letter)
+        if letter in dict:
+            value = dict.get(letter)
+            som = som + value
+    print(f"Uw score is {som}")
+    return dict
+spel_dictonary()
 
-##gemaakt met de lijst van lijsten
+#gemaakt met de lijst van lijsten
 
 
 def spel_lijsten(puntenlijst):
