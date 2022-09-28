@@ -9,16 +9,17 @@ puntenlijst = [
     ["Q","Z"]                                           # 7 punten
 ]
 
-# def punten_berekenen(puntenlijst):
-#     dict = {}
-#     for counter,lijst_met_aantal_punten in enumerate(puntenlijst):
-#         for letter in lijst_met_aantal_punten:
-#             kleine_letter = letter.lower()
-#             dict[kleine_letter] = counter + 1
-#     gesorteerde_dict = sorted(dict.items())
-#     return gesorteerde_dict
-# print(punten_berekenen(puntenlijst))
-
+def punten_berekenen(puntenlijst):
+    dict1 = {}
+    gesorteerde_dict = {}
+    for counter,lijst_met_aantal_punten in enumerate(puntenlijst):
+        for letter in lijst_met_aantal_punten:
+            kleine_letter = letter.lower()
+            dict1[kleine_letter] = counter + 1
+    for i in sorted(dict1):
+        gesorteerde_dict[i] = dict1[i]
+    return gesorteerde_dict
+punten_berekenen(puntenlijst)
 """ Niveau 2"""
 puntenlijst_en = [
     ["A", "E", "I", "O", "U", "L", "N", "S", "T"],      # 1 punt
@@ -31,11 +32,44 @@ puntenlijst_en = [
 ]
 
 def punten_berekenen_niveau2(puntenlijst):
-    dict = {}
+    dict1 = {}
+    gesorteerde_dict = {}
     for counter,lijst_met_aantal_punten in enumerate(puntenlijst):
         for letter in lijst_met_aantal_punten:
             kleine_letter = letter.lower()
-            dict[kleine_letter] = counter + 1
-    gesorteerde_dict = sorted(dict.items())
+            dict1[kleine_letter] = counter + 1
+    for i in sorted(dict1):
+        gesorteerde_dict[i] = dict1[i]
     return gesorteerde_dict
-print(punten_berekenen_niveau2(puntenlijst_en))
+punten_berekenen_niveau2(puntenlijst_en)
+
+""" Niveau 3"""
+##gemaakt met de dictonary
+
+# def spel_dictonary():
+#     woord = input("Geef een woord op om het spel te starten: ")
+#     dict = punten_berekenen(puntenlijst)
+#     som = 0
+#     for letter in woord:
+#         print(letter)
+#         if letter in dict:
+#             value = dict.get(letter)
+#             som = som + value
+#     print(f"Uw score is {som}")
+#     return dict
+# spel_dictonary()
+
+##gemaakt met de lijst van lijsten
+
+
+def spel_lijsten(puntenlijst):
+    woord = input("Geef een woord op om het spel te starten (IN HOOFDLETTERS): ")
+    som= 0
+    for letter in woord:
+        for index,lijst in enumerate(puntenlijst):
+            if letter in lijst:
+                punt = index+1
+                som = som + punt
+    einde = f"Uw score is {som}"
+    return einde
+print(spel_lijsten(puntenlijst))
