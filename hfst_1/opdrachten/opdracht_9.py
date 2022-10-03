@@ -51,7 +51,6 @@ def spel_dictonary():
     dict = punten_berekenen(puntenlijst)
     som = 0
     for letter in woord:
-        print(letter)
         if letter in dict:
             value = dict.get(letter)
             som = som + value
