@@ -13,6 +13,6 @@ for rij in csv_reader: # doorloop de rijen
 
 fp.close() # Na sluiten is CSV niet meer bruikbaar
 
-for eruption in eruptions_ll:#doorloop de lijst
-    print(eruption)# print element van lijst
-
+# for eruption in eruptions_ll:#doorloop de lijst
+#     print(eruption)# print element van lijst
+print(eruptions_ll)#print lijst
