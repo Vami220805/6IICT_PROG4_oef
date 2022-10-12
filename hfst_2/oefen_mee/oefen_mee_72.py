@@ -18,7 +18,7 @@ for index, rij in enumerate(eruptions_ld):
     eruptions_ld_verwerkt.append(dict)
 header = ["Year", "Name"]#de header voor het csv bestand is 
 
-fp = open( "csv_verwerkt_dict.csv", "w", newline="" )
+fp = open( "csv_bestanden/csv_verwerkt_dict.csv", "w", newline="" )
 csv_writer = csv.DictWriter( fp , delimiter=";", fieldnames=header)
 
 csv_writer.writeheader()

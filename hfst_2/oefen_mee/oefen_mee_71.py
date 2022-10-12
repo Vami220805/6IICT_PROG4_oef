@@ -20,7 +20,7 @@ for index, rij in enumerate(eruptions_ll):
     else:
         eruptions_ll_verwerkt.append((abs(int(rij[1])), rij[4].lower()))
 
-fp = open( "csv_verwerkt_lijst.csv", "w", newline="")#open het bestand in schrijf modus
+fp = open( "csv_bestanden/csv_verwerkt_lijst.csv", "w", newline="")#open het bestand in schrijf modus
 csv_writer = csv.writer( fp , delimiter=";")#gebruik de functie csv.writer om het bestand te schrijven
 
 for rij in eruptions_ll_verwerkt: #doorloop de rijen in film_kritieken
