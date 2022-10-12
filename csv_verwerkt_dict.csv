@@ -1,0 +1,823 @@
+Year;Name
+1750;veniaminof
+1645;aniakchak
+1610;santorini
+1550;redoubt
+1460;taupo
+1370;pago
+1050;pinatubo
+1010;tungurahua
+455;cotopaxi
+250;raoul island
+197;santorini
+150;st. andrew strait
+141;etna
+100;okmok
+50;apoyeque
+46;santorini
+50;ambrym
+60;bona-churchill
+79;vesuvius
+200;arhab
+230;taupo
+240;ksudach
+350;augustine
+416;krakatau
+450;ilopango
+500;arhab
+590;san salvador
+640;uwayrid
+653;dakataua
+683;rabaul
+710;pago
+764;sakura-jima
+766;sakura-jima
+787;vesuvius
+847;bona-churchill
+920;katla
+930;ceboruco
+934;katla
+950;katla
+1000;changbaishan
+1050;santorini
+1104;hekla
+1151;krisuvik
+1158;hekla
+1169;etna
+1169;etna
+1177;katla
+1206;hekla
+1250;fentale
+1262;katla
+1280;quilotoa
+1300;hekla
+1302;ischia
+1311;katla
+1311;kelut
+1329;etna
+1329;etna
+1331;aso
+1334;kelut
+1341;hekla
+1357;katla
+1362;oraefajokull
+1375;chichon
+1376;kelut
+1385;kelut
+1389;hekla
+1410;nasu
+1430;kuwae
+1471;sakura-jima
+1477;bardarbunga
+1485;aso
+1500;katla
+1510;hekla
+1510;hekla
+1536;etna
+1538;campi flegrei
+1540;augustine
+1550;dukono
+1564;gamkonora
+1565;pacaya
+1566;kirishima
+1568;savo
+1570;mombacho
+1576;colima
+1580;san jorge
+1580;katla
+1580;billy mitchell
+1581;fuego
+1586;kelut
+1587;merapi
+1590;colima
+1593;raung
+1595;ruiz
+1596;asama
+1597;hekla
+1597;raung
+1598;asama
+1598;banda api
+1600;huaynaputina
+1606;hachijo-jima
+1608;gamalama
+1609;tengchong
+1615;banda api
+1617;fuego
+1625;katla
+1629;grimsvotn
+1630;furnas
+1631;dama ali
+1631;vesuvius
+1636;hekla
+1638;raung
+1640;komaga-take
+1640;tungurahua
+1646;makian
+1650;santorini
+1659;san salvador
+1659;teon
+1660;teon
+1660;katla
+1660;long island
+1663;usu
+1664;unzen
+1664;iwo-tori-shima
+1669;etna
+1669;etna
+1670;aoba
+1672;fayal
+1672;merapi
+1673;gamkonora
+1677;la palma
+1679;zukur
+1682;vesuvius
+1684;grimsvotn
+1690;vesuvius
+1690;guntur
+1692;serua
+1693;etna
+1693;hekla
+1694;banda api
+1698;vesuvius
+1698;cereme
+1698;cotopaxi
+1706;tenerife
+1707;santorini
+1707;fuji
+1711;awu
+1712;bardarbunga
+1714;vesuvius
+1716;kelut
+1716;taal
+1716;bardarbunga
+1716;kirishima
+1717;kirishima
+1717;bardarbunga
+1717;fuego
+1718;pico
+1721;katla
+1721;asama
+1726;bardarbunga
+1727;oraefajokull
+1729;bardarbunga
+1729;krafla
+1730;lanzarote
+1730;raung
+1730;tseax river cone
+1737;vesuvius
+1741;oshima-oshima
+1742;cotopaxi
+1742;cotopaxi
+1749;taal
+1753;grimsvotn
+1754;taal
+1755;katla
+1757;san jorge
+1760;makian
+1762;kliuchevskoi
+1766;hekla
+1766;mayon
+1768;cotopaxi
+1772;gamalama
+1772;papandayan
+1773;gamalama
+1775;gamalama
+1775;lokon-empung
+1778;raikoke
+1779;vesuvius
+1779;sakura-jima
+1780;sakura-jima
+1780;aoga-shima
+1780;sakura-jima
+1780;sakura-jima
+1781;sakura-jima
+1783;asama
+1784;grimsvotn
+1784;sabancaya
+1784;hualalai
+1785;aoga-shima
+1786;dieng volc complex
+1789;oshima
+1790;kilauea
+1792;unzen
+1794;vesuvius
+1800;san jorge
+1800;guntur
+1800;mayon
+1800;kieyo
+1800;st. helens
+1800;hualalai
+1801;chokai
+1803;asama
+1803;asama
+1804;shikotsu
+1805;vesuvius
+1812;soufriere st. vincent
+1812;awu
+1813;vesuvius
+1814;mayon
+1815;tambora
+1816;aso
+1817;ijen
+1817;raung
+1818;colima
+1819;asuncion
+1820;westdahl
+1820;banda api
+1822;usu
+1822;galunggung
+1822;merapi
+1823;kilauea
+1824;shishaldin
+1825;balbi
+1826;kelut
+1826;dieng volc complex
+1826;aso
+1827;avachinsky
+1827;avachinsky
+1829;guntur
+1832;etna
+1832;merapi
+1833;kaba
+1835;cosiguina
+1835;banda api
+1837;peuet sague
+1838;gamalama
+1839;unnamed
+1840;gamalama
+1840;kilauea
+1840;ararat
+1840;savo
+1840;tinakula
+1841;kuchinoerabu-jima
+1843;liamuiga
+1843;soufriere guadeloupe
+1843;lamongan
+1843;etna
+1845;soputan
+1845;ruiz
+1845;hekla
+1846;taupo
+1846;tangkubanparahu
+1846;e-san
+1847;fogo
+1847;dieng volc complex
+1848;kelut
+1850;rabaul
+1853;niuafo'ou
+1853;mayon
+1853;unnamed
+1854;shiveluch
+1854;aso
+1854;alaid
+1856;awu
+1856;shishaldin
+1856;komaga-take
+1857;umboi
+1858;mayon
+1858;tate-yama
+1858;tate-yama
+1860;semeru
+1860;fuego
+1860;grimsvotn
+1861;dubbi
+1861;grimsvotn
+1861;makian
+1863;yasur
+1864;kelut
+1866;santorini
+1866;ofu-olosega
+1867;zao
+1868;mauna loa
+1868;etna
+1869;lewotobi
+1869;lamongan
+1870;ruang
+1870;iliwerung
+1870;aoba
+1871;ruang
+1871;camiguin
+1871;gamalama
+1871;mayon
+1872;merapi
+1872;merapi
+1872;vesuvius
+1872;merapi
+1872;aso
+1872;sinarka
+1873;ragang
+1873;vesuvius
+1874;miyake-jima
+1874;taal
+1875;kelut
+1875;askja
+1875;mayon
+1877;mauna loa
+1877;cotopaxi
+1878;yasur
+1878;rabaul
+1878;yasur
+1878;okmok
+1879;stromboli
+1883;karthala
+1883;krakatau
+1883;augustine
+1883;krakatau
+1883;bagana
+1884;krakatau
+1885;semeru
+1885;purace
+1886;tungurahua
+1886;okataina
+1886;niuafo'ou
+1887;mayon
+1888;ritter island
+1888;bandai
+1889;banua wuhu
+1890;makian
+1890;victory
+1892;sorikmarapi
+1892;awu
+1892;tofua
+1893;calbuco
+1893;azuma
+1894;ambrym
+1895;semeru
+1895;karkar
+1895;kirishima
+1895;dakataua
+1896;kirishima
+1897;tinakula
+1897;mayon
+1899;dona juana
+1899;manam
+1900;asama
+1900;kirishima
+1900;adatara
+1900;tullu moje
+1901;kelut
+1901;epi
+1902;pelee
+1902;soufriere st. vincent
+1902;pelee
+1902;pelee
+1902;tori-shima
+1902;pelee
+1902;santa maria
+1902;merapi
+1903;okataina
+1903;karthala
+1904;karthala
+1905;vesuvius
+1905;savai'i
+1906;vesuvius
+1907;unnamed
+1907;alayta
+1907;lewotobi
+1907;savai'i
+1909;cameroon
+1909;semeru
+1910;taupo
+1910;usu
+1911;taal
+1911;asama
+1911;asama
+1911;piparo
+1911;semeru
+1912;novarupta
+1912;nyamuragira
+1913;colima
+1913;awu
+1913;asama
+1913;semeru
+1913;ambrym
+1914;sakura-jima
+1914;pago
+1914;white island
+1914;aoba
+1916;tungurahua
+1916;stromboli
+1917;lengai
+1917;okataina
+1917;calbuco
+1917;san salvador
+1918;banua wuhu
+1918;katla
+1919;popocatepetl
+1919;banua wuhu
+1919;kelut
+1919;stromboli
+1919;nasu
+1919;mauna loa
+1920;merapi
+1920;izalco
+1921;nasu
+1923;cendres
+1923;papandayan
+1923;tangkubanparahu
+1923;kirishima
+1924;kilauea
+1926;tokachi
+1927;paluweh
+1927;esjufjoll
+1928;santorini
+1928;mayon
+1928;krakatau
+1928;dieng volc complex
+1928;paluweh
+1928;etna
+1929;calbuco
+1929;komaga-take
+1929;etna
+1929;santa maria
+1930;krakatau
+1930;asama
+1930;stromboli
+1930;merapi
+1931;asama
+1932;fuego
+1932;merapi
+1932;kusatsu-shirane
+1933;kharimkotan
+1933;hakone
+1933;kuchinoerabu-jima
+1933;bulusan
+1934;hood
+1936;asama
+1937;llaima
+1937;rabaul
+1938;nyamuragira
+1938;bandai
+1938;mayon
+1938;asama
+1939;kick-'em-jenny
+1939;tori-shima
+1939;dieng volc complex
+1940;karangetang [api siau]
+1940;miyake-jima
+1940;lengai
+1941;asama
+1941;semeru
+1943;michoacan-guanajuato
+1943;azul
+1944;vesuvius
+1944;cleveland
+1944;usu
+1944;stromboli
+1944;usu
+1944;dieng volc complex
+1946;sakura-jima
+1946;semeru
+1946;semeru
+1946;sarychev peak
+1947;mayon
+1947;asama
+1947;akagi
+1947;hekla
+1948;iliwerung
+1949;villarrica
+1949;purace
+1949;camiguin
+1950;semeru
+1950;camiguin
+1950;asama
+1951;lamington
+1951;cosiguina
+1951;kelut
+1951;hakone
+1951;camiguin
+1951;kavachi
+1952;hakone
+1952;myojun knoll
+1952;myojun knoll
+1952;myojun knoll
+1952;myojun knoll
+1952;ambalatungan group
+1953;myojun knoll
+1953;merapi
+1953;myojun knoll
+1953;aso
+1953;st. andrew strait
+1953;sirung
+1953;hakone
+1953;oshima
+1953;ruapehu
+1954;stromboli
+1954;tate-yama
+1954;bam
+1954;camiguin
+1955;carran-los venados
+1955;sakura-jima
+1956;bezymianny
+1957;vsevidof
+1957;unzen
+1957;oshima
+1957;aso
+1958;mahawu
+1958;daisetsu
+1958;kuwae
+1960;puyehue
+1961;calbuco
+1961;tate-yama
+1961;merapi
+1961;daisetsu
+1961;asama
+1962;tokachi
+1962;merapi
+1962;gamalama
+1963;irazu
+1963;agung
+1963;semeru
+1963;agung
+1963;villarrica
+1963;batur
+1963;fuego
+1963;irazu
+1964;paluweh
+1964;villarrica
+1964;dieng volc complex
+1965;taal
+1965;kick-'em-jenny
+1966;tinakula
+1966;kelut
+1966;awu
+1966;lengai
+1967;lengai
+1967;semeru
+1967;deception island
+1968;mayon
+1968;arenal
+1969;merapi
+1969;iya
+1969;didicas
+1969;narugo
+1970;campi flegrei
+1970;hekla
+1971;hudson
+1971;tinakula
+1971;fuego
+1971;la palma
+1971;villarrica
+1971;kusatsu-shirane
+1972;fournaise
+1972;hakone
+1972;ritter island
+1973;vestmannaeyjar
+1973;paluweh
+1973;hudson
+1973;iliwerung
+1974;karangetang [api siau]
+1974;sakura-jima
+1974;niigata-yake-yama
+1974;sakura-jima
+1974;fuego
+1974;ritter island
+1974;merapi
+1975;marapi
+1975;arenal
+1975;kilauea
+1976;kusatsu-shirane
+1976;sangay
+1976;semeru
+1976;karangetang [api siau]
+1976;merapi
+1977;nyiragongo
+1977;karthala
+1977;krafla
+1977;kliuchevskoi
+1977;usu
+1978;usu
+1978;bulusan
+1978;santa maria
+1978;semeru
+1978;tangkubanparahu
+1979;dieng volc complex
+1979;karkar
+1979;soufriere st. vincent
+1979;etna
+1979;iliwerung
+1979;aso
+1980;st. helens
+1980;hekla
+1980;hood
+1981;etna
+1981;semeru
+1981;alaid
+1981;semeru
+1981;mayon
+1981;paluweh
+1981;vilyuchik
+1982;chichon
+1982;chichon
+1982;galunggung
+1982;chichon
+1983;kliuchevskoi
+1983;colo [una una]
+1983;iliwerung
+1983;miyake-jima
+1984;oku volc field
+1984;mayon
+1984;on-take
+1984;etna
+1985;semeru
+1985;ruiz
+1985;etna
+1986;akita-yake-yama
+1986;stromboli
+1986;oku volc field
+1986;merapi
+1986;oshima
+1987;pacaya
+1987;etna
+1987;sirung
+1988;banda api
+1988;arenal
+1988;semeru
+1988;lonquimay
+1988;akita-yake-yama
+1989;aso
+1989;kirishima
+1990;shiveluch
+1990;kelut
+1990;aso
+1990;aso
+1990;sabancaya
+1990;rabaul
+1990;santa maria
+1990;aso
+1990;nyiragongo
+1990;kelut
+1991;unzen
+1991;pinatubo
+1991;mutnovsky
+1991;karthala
+1991;hudson
+1991;lokon-empung
+1991;etna
+1992;karangetang [api siau]
+1992;dieng volc complex
+1992;negro
+1992;karangetang [api siau]
+1992;marapi
+1992;pinatubo
+1992;spurr
+1992;semeru
+1993;galeras
+1993;wurlali
+1993;mayon
+1993;guagua pichincha
+1993;kilauea
+1993;krakatau
+1993;unzen
+1993;pinatubo
+1993;pinatubo
+1994;yasur
+1994;semeru
+1994;aso
+1994;huila
+1994;rabaul
+1994;rinjani
+1994;merapi
+1995;yasur
+1995;yake-dake
+1995;fogo
+1995;pacaya
+1995;kelimutu
+1995;parker
+1996;karymsky
+1996;popocatepetl
+1996;kanlaon
+1996;maderas
+1996;grimsvotn
+1996;manam
+1997;merapi
+1997;karangetang [api siau]
+1997;soufriere hills
+1997;hakkoda group
+1997;soufriere hills
+1997;semeru
+1997;adatara
+1997;aso
+1997;soufriere hills
+1998;kilauea
+1998;kelut
+1998;san cristobal
+1999;soufriere hills
+1999;fuego
+1999;shiveluch
+1999;guagua pichincha
+1999;tungurahua
+2000;miyake-jima
+2000;semeru
+2000;arenal
+2000;kilauea
+2000;merapi
+2001;etna
+2001;etna
+2001;merapi
+2001;stromboli
+2002;karangetang [api siau]
+2002;nyiragongo
+2002;etna
+2002;reventador
+2002;stromboli
+2002;semeru
+2003;soufriere hills
+2004;egon
+2004;tengger caldera
+2004;manam
+2005;manam
+2005;santa ana
+2005;karthala
+2006;raoul island
+2006;soufriere hills
+2006;bulusan
+2006;merapi
+2006;tungurahua
+2006;tungurahua
+2006;mayon
+2007;manam
+2007;huila
+2007;salak
+2007;tair
+2008;chaiten
+2008;kasatochi
+2008;tungurahua
+2008;huila
+2009;redoubt
+2009;kilauea
+2010;tungurahua
+2010;eyjafjallajokull
+2010;pacaya
+2010;sarigan
+2010;karangetang [api siau]
+2010;sinabung
+2010;merapi
+2010;tungurahua
+2010;tengger caldera
+2011;merapi
+2011;kirishima
+2011;bulusan
+2011;karangetang [api siau]
+2011;tungurahua
+2011;puyehue
+2011;nabro
+2011;katla
+2011;lokon-empung
+2011;gamalama
+2012;kilauea
+2012;kilauea
+2012;tolbachik
+2013;merapi
+2013;paluweh
+2013;mayon
+2013;paluweh
+2013;ubinas
+2013;sakura-jima
+2013;sinabung
+2013;okataina
+2014;sinabung
+2014;kelut
+2014;on-take
+2014;kilauea
+2014;fogo
+2014;gamalama
+2015;sinabung
+2015;calbuco
+2015;karangetang [api siau]
+2015;manam
+2015;sinabung
+2015;okataina
+2016;sinabung
+2016;sinabung
+2016;yellowstone
+2016;rinjani
+2016;aso
+2017;etna
+2017;sinabung
+2017;fuego
+2017;dieng volc complex
+2017;campi flegrei
+2017;aoba
+2017;merapi
+2017;sinabung
+2018;kadovar
+2018;mayon
+2018;kusatsu-shirane
+2018;kilauea
+2018;kadovar
+2018;ijen
+2018;aoba
+2018;kilauea
+2018;fuego
+2018;kilauea
+2018;manam
+2018;ambrym
+2018;krakatau
+2018;etna
+2019;manam
+2019;sinabung
+2019;ulawun
+2019;manam
+2019;stromboli
+2019;stromboli
