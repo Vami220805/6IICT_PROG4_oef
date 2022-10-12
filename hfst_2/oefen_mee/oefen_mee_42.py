@@ -13,7 +13,7 @@ for dict in csv_reader:                                                 #doorloo
                 value2 = str(abs(value1))                               #maak het getal positief en dan weer een string
             else:                                                       #anders
                 value2 = value                                          #hou het getal zo
-            nieuwe_dict[key]= value                                     #zet het in de nieuwe dict
+            nieuwe_dict[key]= value2                                    #zet het in de nieuwe dict
 
         if key == "Name":                                               #als de key "Name" is
             kleine_letter = value[0].lower() + value[1:]                #maak de eerste letter een kleine letter en hou de rest zo
@@ -23,3 +23,5 @@ fp.close()                                                              # Na slu
 
 print("")                                                               # print lege lijn
 print(eruptions_ld)                                                     #print de lijst
+
+# for index,rij in enumerate(eruptions_ld) (andere manier, rij is dict)
