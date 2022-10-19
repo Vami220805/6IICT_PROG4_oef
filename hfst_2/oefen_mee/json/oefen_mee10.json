@@ -1,0 +1,10 @@
+{
+    "HOOGTE": 150,
+    "BREEDTE" :150,
+    "KANS_LEVEND": 0.6,
+    "KLEUR_ACHTERGROND": [0, 0, 0],
+    "KLEUR_LEVEND" : [0, 0, 255],
+    "KLEUR_DOOD" : [255,255,255],
+    "CEL_BREEDTE": 5,
+    "CEL_HOOGTE":5
+}
