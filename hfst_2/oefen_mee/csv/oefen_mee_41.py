@@ -1,6 +1,6 @@
 import csv # importeer de module csv
 
-fp = open( "hfst_2/oefen_mee/volcanic-eruptions-EU.csv", "r" )# open het bestand in read modus
+fp = open( "hfst_2/oefen_mee/csv/volcanic-eruptions-EU.csv", "r" )# open het bestand in read modus
 # var csv_reader kan je niet rechtstreeks wijzigen of oproepen.
 csv_reader = csv.reader( fp , delimiter=";") #gebruik functie csv 
 # reader om het bestand te lezen

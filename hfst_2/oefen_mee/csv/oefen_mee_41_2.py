@@ -1,6 +1,6 @@
 import csv
 
-fp = open( "hfst_2/oefen_mee/volcanic-eruptions-EU.csv", "r" )
+fp = open( "hfst_2/oefen_mee/csv/volcanic-eruptions-EU.csv", "r" )
 # var csv_reader kan je niet rechtstreeks wijzigen of oproepen.
 csv_reader = csv.reader( fp , delimiter=";") 
 # print(csv_reader[3]) # Voorbeeld

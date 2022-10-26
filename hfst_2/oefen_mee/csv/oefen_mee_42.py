@@ -1,6 +1,6 @@
 import csv# importeer module csv
 
-fp = open( "hfst_2/oefen_mee/volcanic-eruptions-EU.csv", "r" ) # open het bestand
+fp = open( "hfst_2/oefen_mee/csv/volcanic-eruptions-EU.csv", "r" ) # open het bestand
 csv_reader = csv.DictReader( fp , delimiter=";")#gebruik de functie csv reader om het bestand de lezen als Dict
 
 eruptions_ld = []                                                       # ld = lijst van dictionaries
