@@ -29,18 +29,18 @@ print(antwoord_dict)
             Welke structuren zijn aanwezig? Via welke keys/index krijg ik de benodigde data?
 """
 
-print(f"Huidig weer in {stad}")
-main = antwoord_dict['list']['weather']['main']
-desc = antwoord_dict['list']['weather']['description']
-print(f"{main} - {desc}")
+# print(f"Huidig weer in {stad}")
+# main = antwoord_dict['list']['weather']['main']
+# desc = antwoord_dict['list']['weather']['description']
+# print(f"{main} - {desc}")
 
 
-print(f"Morgen:")
-main = antwoord_dict['list']['weather']['main']
-desc = antwoord_dict['list']['weather']['description']
-print(f"{main} - {desc}")
+# print(f"Morgen:")
+# main = antwoord_dict['list']['weather']['main']
+# desc = antwoord_dict['list']['weather']['description']
+# print(f"{main} - {desc}")
 
-print("Overmorgen:")
-main = antwoord_dict['list']['weather']['main']
-desc = antwoord_dict['list']['weather']['description']
-print(f"{main} - {desc}")
+# print("Overmorgen:")
+# main = antwoord_dict['list']['weather']['main']
+# desc = antwoord_dict['list']['weather']['description']
+# print(f"{main} - {desc}")
