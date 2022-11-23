@@ -7,10 +7,6 @@ import matplotlib.pyplot as plt
 import statistics
 import csv
 
-plt.subplot(1,2,1)  # Maak de linkse van twee figuren aan.
-plt.xlim(0,20)      # Stel de breedte in de x-as. Laat de eerste 20s zien.
-plt.grid()          # Voeg raster toe aan grafiek.
-
 totaal1 = 0
 totaal2 =0
 tijd1= []
@@ -25,6 +21,9 @@ for index, rij in enumerate(csv_reader):#doorloop iedere rij in het bestand
         snelheid1.append(float(rij[1]))
 fp.close() # Na sluiten is CSV niet meer bruikbaar
 
+plt.subplot(1,2,1)  # Maak de linkse van twee figuren aan.
+plt.xlim(0,20)      # Stel de breedte in de x-as. Laat de eerste 20s zien.
+plt.grid()          # Voeg raster toe aan grafiek.
 plt.plot(tijd1, snelheid1, 'g')     # Plot de rotatie ten opzichte van de tijd.
 for element in snelheid1:
     totaal1 += element
