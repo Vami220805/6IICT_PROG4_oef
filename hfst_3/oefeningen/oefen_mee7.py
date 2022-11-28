@@ -1,9 +1,20 @@
 """ Niveau 1 """
 num_lijst = [ 100, 101, 0, "103", 104 ]
-index = int( input( "Geef een index: " ) )
-
-""" Niveau 2 (haal uit commentaar) """
-# print( f"100 / {num_lijst[index]} = {100/num_lijst[index]}" ) 
+try:
+    index = input( "Geef een index: " )
+    if "." in index:
+        index = float( index )
+    else:
+        index = int( index )
+except IndexError:
+    print("Deze index is niet juist.")
+except ValueError:
+    print("Deze waarde is niet correct") 
+else:
+    try:
+        print( f"100 / {num_lijst[index]} = {100/num_lijst[index]}" ) 
+    except TypeError:
+        print("Deze waarde is verkeerd ingevoerd.")   
 
 """ Niveau 3 (haal uit commentaar) """
 # print( "Geldig getal als index opgegeven." )

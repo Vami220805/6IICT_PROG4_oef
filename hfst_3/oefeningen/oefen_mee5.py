@@ -2,20 +2,23 @@
 Wat gaat hier mis?
 """
 fruit_lijst = ["Appel", "Banaan", "Meloen", "Mango", "Druif"]
-getal = int( input("Hoeveel fruit uit de lijst wil je printen: ") )
-
-for i in range(getal):
-    fruit = fruit_lijst[i]
+try:
+    getal = int( input("Welke index uit de fruitlijst wil je printen: ") )
+    for i in range(getal):
+        fruit = fruit_lijst[i]
     print(fruit)
 
+except ValueError:
+    print("Dit is een foute waarde")
+except NameError:
+    print("Verkeerde index")
 
 """ Niveau 3 (haal uit commentaar) """
-# while True:
-#     fruit = input("Element aan lijst toevoegen: ")
-    
-#     if fruit == "":
-#         break # Loop stopt wanneer gebruiker een lege string ingeeft.
-#     else:
-#         fruit_lijst.append(fruit)
+while True:
+    fruit = input("Element aan lijst toevoegen: ")
+    if fruit == "":
+        break # Loop stopt wanneer gebruiker een lege string ingeeft.
+    else:
+        fruit_lijst.append(fruit)
 
-# print(fruit_lijst)
+print(fruit_lijst)
