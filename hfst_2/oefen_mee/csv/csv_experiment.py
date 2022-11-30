@@ -1,10 +1,5 @@
-""" 
-Visualiseren met Matplotlib
-    Opgelet: rotatie_1, rotatie_2, gem_rot_1, gem_rot_2, med_rot_1, med_rot_2 en tijd
-             zijn variabelen bekomen uit het CSV-bestand. Hoe deze bekomen zijn, wordt hier niet getoond.
-"""
+
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import figure
 import statistics
 import csv
 
@@ -41,7 +36,7 @@ plt.xlabel('tijd (s)')                      # Benoem de x-as
 plt.ylabel('rotatiesnelheid w (rad/s)')     # Benoem de y-as
 plt.title("GSM op 10 inch velg met snelheid 10 km/u")            # Geef figuur een titel.  
 
-# grafiek 10 inch velg
+# grafiek 12 inch velg
 
 fp = open( "csv_bestanden/experiment12in.csv", "r" )#open het csv bestand met lees modus
 csv_reader = csv.reader( fp , delimiter=",")#gebruik de functie csv.reader om het bestand te lezen
