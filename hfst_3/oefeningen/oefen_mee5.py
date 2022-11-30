@@ -12,6 +12,8 @@ except ValueError:
     print("Dit is een foute waarde")
 except NameError:
     print("Verkeerde index")
+except IndexError:
+    print("Dit is geen juiste index.")
 
 """ Niveau 3 (haal uit commentaar) """
 while True:
