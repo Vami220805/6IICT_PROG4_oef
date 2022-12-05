@@ -49,4 +49,4 @@ Bijvoorbeeld lo_voorbeeldresultaat.json .
 """
 fp1 = open("hfst_2/lo_voorbeeldresultaat.json", "w")
 json.dump(dic, fp1)
-fp.close() # Na sluiten is JSON niet meer bruikbaar
+fp1.close() # Na sluiten is JSON niet meer bruikbaar

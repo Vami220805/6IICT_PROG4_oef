@@ -1,7 +1,7 @@
 import requests, json
 
-client_id = "Vervang door eigen client id (string)"
-client_secret = "vervang door eigen client secret (string)"
+client_id = "b21b9c59d6534052a691402188d37c1b"
+client_secret = "406ca2e1c1a9494eab39276ff72df506"
 
 # Herinner je dat een API gewoon een speciale URL is...
 # Via deze URL kunnen we ons inlogtoken aanvragen.
@@ -25,3 +25,7 @@ print(cred_resp)
 zet de dictionary cred_resp in JSON-bestand met de naam certificatie.json
 
 """
+
+fp = open("hfst_2/spotify_cred.json", "w")
+json.dump(cred_resp, fp)
+fp.close() # Na sluiten is JSON niet meer bruikbaar
