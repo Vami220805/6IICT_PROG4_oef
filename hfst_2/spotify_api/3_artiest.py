@@ -44,10 +44,21 @@ overzicht.append(header)
 for index, lied in enumerate(beste_liedjes["tracks"]):
     # Haal uit ieder lied de informatie beschreven in de header. Zet deze in lied_info.
     # De lijst lied_info wordt tenslotte toegevoegd aan het overzicht.
-    print(lied) 
-    lied_info = [] # Vul aan!
+    # print(lied) 
+    naam = lied["name"] 
+    lengte = lied["duration_ms"]
+    populariteit = lied["popularity"]
+    url = lied["external_urls"]["spotify"]
+    lied_info = [naam, lengte, populariteit, url] # Vul aan!
     overzicht.append(lied_info)
 
+print(overzicht)
 """ Oefen mee 10:
 Maak een CSV-bestand beste_liedjes.csv aan op basis van het opgestelde overzicht.
 """
+fp = open( "hfst_2/beste_liedjes.csv", "w", newline="")#open het bestand in schrijf modus
+csv_writer = csv.writer( fp , delimiter=";")#gebruik de functie csv.writer om het bestand te schrijven
+for rij in overzicht: #doorloop de rijen in film_kritieken
+    csv_writer.writerow(rij)#scrijf een rij als csv in het write bestand 
+
+fp.close() # Na sluiten is CSV niet meer bruikbaar
