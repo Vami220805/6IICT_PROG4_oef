@@ -1,0 +1,13 @@
+{
+    "highscore": 1,
+    "scherm":{
+        "breedte":600,
+        "hoogte":400
+    },
+    "slang": {
+        "grootte":10,
+        "snelheid":15
+    },
+    "eten": 10,
+    "kleur": [[255,255,255],[255,0,0],[0, 255, 0],[0, 0, 255]]
+}
