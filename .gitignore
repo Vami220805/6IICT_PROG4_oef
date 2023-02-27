@@ -173,5 +173,6 @@ cython_debug/
 
 # Add own ignores here
 !/README.md/
+hfst_5_AI\_afbeeldingen\fotos
 yolov3_tiny.weights
 yolov3.weights
