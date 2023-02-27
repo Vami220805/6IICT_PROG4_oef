@@ -173,6 +173,5 @@ cython_debug/
 
 # Add own ignores here
 !/README.md/
-
 yolov3_tiny.weights
 yolov3.weights
