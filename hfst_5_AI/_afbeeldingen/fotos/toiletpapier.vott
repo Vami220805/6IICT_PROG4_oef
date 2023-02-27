@@ -1,0 +1,527 @@
+{
+    "name": "toiletpapier",
+    "securityToken": "toiletpapier Token",
+    "sourceConnection": {
+        "name": "toiletpapier",
+        "description": "map toiletpapier",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTg3MmUyYWZjNzZmNmY3ODE2MTk5YjM3YTMzYmYyNzY2MjllODIxZmY1YmZjZmQ0MDVkZjdlZjVkMzBlOTQ2MjhlYzY2MWNjM2VkOWE5YTI3YmFjZWQxMTlkZTA2NWExZTQzOTMwNGVmYjVmM2UyNjcxZDdiNGViMmZmNDY0ZGY3NGVlYjJjZWMzNGNmN2VmMTg0YTRhZTExZTRjZDhhMWNiZWFhODliMjE3MzZmYWJlOWZkMDM5ZGIwZjgzYTQwMTQ5YjEzODAxZmMzODg1MGY3NDU2NmNmMWEwYTNhMGJhODhkMjQ0MjA1NjkzYWM2OWM5MWU3MjJiNjNlNmQwZWM5ZjFlZmM4OGQ5ZGMwNWUxYjczMDlmMmQ2M2QzNjdjZDliMWNhNDNjNGRjNzA0MmJhZTg4ZDRkZGZjOWQ5NWQiLCJpdiI6IjljMjIwYjIzYTcwYWU1NGYzNWZjOTViMWE0NzY0YzM2YTk2YjFlZjg5NGMyMWRhZSJ9"
+        },
+        "id": "Knz88JZxO"
+    },
+    "targetConnection": {
+        "name": "toiletpapier",
+        "description": "map toiletpapier",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjRkYzFkZDAxYjZjZjU4NWE3Yjg5MTMxZDE5MmNlNzA1YzFlNmVmODNkNzczMThhNzg3NDViMGI5NTRkZjE0OWRiNWQwZDE3YzJlMWQ1YTIxZjk4YjJiYTJiZWJkYTJhZTcwMjE5MGQ0NjIyMzgxMWI0M2E0YThhOTliNDUzYjVjMmM4NTQ4MjY5YjcwNDg2Yjg4ZjYwMDkyNGYxMjBlZDkwNjAxMWU5MTU1NDk3MjA4NmQwNzRjZTM4MzFiODM5ZWFkMTNjNGY1Yjk1MzUxMjI2OWMzODhiYTdmOWJhODFhZTAwZWM2NGNhN2ViMzAzMGNiYWUyMzY0Mzg3NzY0ODdhNzI4ZTM5YjQyOWFlNDQ1ZDA2ZTc4ZjlhNjVkNmI4Y2Q4ZmZkYThlNDAyNjg0MTY4NzlmZjBmYTMzYTYxZjIiLCJpdiI6IjZhNTg3YTRkZDA0YWJhMTVkMzg5MzU2MmIxYjI3M2NjMmQ3YzRlMDE5N2IyOTM0OSJ9"
+        },
+        "id": "Knz88JZxO"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "toiletpapier",
+            "color": "#5db300"
+        }
+    ],
+    "id": "bNfdpePjB",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGY2NmI3NTk4YjQ1NGU1YjA4NjQ4OTk5Njk0MDcxYzJlODFjOWRmZTgwNzQyZDczMWRiMTIyZmQ1YzFmZWQ4NjE3ZTY2NTc3ZjVkMzIwMzFmN2M3MjU4ZGExZjJlNzE4IiwiaXYiOiI1M2E0YTdiMzk4ZTA3MWFiYzk3OWQwOTI2MGZkZDQ2M2E0OTMxZTE1YWFhY2M4M2UifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "e92e4a6033a1618315f61518649085cb",
+    "assets": {
+        "412bd3f23db256ce84f43688db063f02": {
+            "format": "jpg",
+            "id": "412bd3f23db256ce84f43688db063f02",
+            "name": "toiletpapier_michael_1.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_1.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbfb3da7cee3a0de5c7a23a2881919d9": {
+            "format": "jpg",
+            "id": "dbfb3da7cee3a0de5c7a23a2881919d9",
+            "name": "toiletpapier_michael_10.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_10.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5b00ac346f4e2a679d347030d7c0b7ef": {
+            "format": "jpg",
+            "id": "5b00ac346f4e2a679d347030d7c0b7ef",
+            "name": "toiletpapier_michael_10_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_10_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4e758b66f2fc9e20e5c394b2fb92c176": {
+            "format": "jpg",
+            "id": "4e758b66f2fc9e20e5c394b2fb92c176",
+            "name": "toiletpapier_michael_10_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_10_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e92e4a6033a1618315f61518649085cb": {
+            "format": "jpg",
+            "id": "e92e4a6033a1618315f61518649085cb",
+            "name": "toiletpapier_michael_10_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_10_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c552319e16de704ea3826c8e68f87bf3": {
+            "format": "jpg",
+            "id": "c552319e16de704ea3826c8e68f87bf3",
+            "name": "toiletpapier_michael_1_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_1_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "edc038fd6ee5aff69098eb4053202f98": {
+            "format": "jpg",
+            "id": "edc038fd6ee5aff69098eb4053202f98",
+            "name": "toiletpapier_michael_1_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_1_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ae71514f04a8b04a8796cbf22f23e2b": {
+            "format": "jpg",
+            "id": "3ae71514f04a8b04a8796cbf22f23e2b",
+            "name": "toiletpapier_michael_1_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_1_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06708a08ff8a77529d4e16e9c7bdf148": {
+            "format": "jpg",
+            "id": "06708a08ff8a77529d4e16e9c7bdf148",
+            "name": "toiletpapier_michael_2.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_2.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b8c2fa74faa4be13f36ca39aac7f4bda": {
+            "format": "jpg",
+            "id": "b8c2fa74faa4be13f36ca39aac7f4bda",
+            "name": "toiletpapier_michael_2_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_2_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc8eb2f0e23f8544d628b72c5ff31620": {
+            "format": "jpg",
+            "id": "dc8eb2f0e23f8544d628b72c5ff31620",
+            "name": "toiletpapier_michael_2_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_2_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81ef1c4e48263c1176a855171d5a7e4d": {
+            "format": "jpg",
+            "id": "81ef1c4e48263c1176a855171d5a7e4d",
+            "name": "toiletpapier_michael_2_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_2_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed4d95154a042eed082c7c5c92ce58ab": {
+            "format": "jpg",
+            "id": "ed4d95154a042eed082c7c5c92ce58ab",
+            "name": "toiletpapier_michael_3.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_3.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e15d4cf045eca539957cad2cb6686d1": {
+            "format": "jpg",
+            "id": "0e15d4cf045eca539957cad2cb6686d1",
+            "name": "toiletpapier_michael_3_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_3_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d7f963469d4ce13727091e7b7a8a1f9": {
+            "format": "jpg",
+            "id": "7d7f963469d4ce13727091e7b7a8a1f9",
+            "name": "toiletpapier_michael_3_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_3_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54bf4ea92cbcf2db77165a1ca5596ea4": {
+            "format": "jpg",
+            "id": "54bf4ea92cbcf2db77165a1ca5596ea4",
+            "name": "toiletpapier_michael_3_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_3_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b860d7c3d6e6c67a52947787531b7cde": {
+            "format": "jpg",
+            "id": "b860d7c3d6e6c67a52947787531b7cde",
+            "name": "toiletpapier_michael_4.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_4.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bddf716ed8dd46a7d34347f1c596931f": {
+            "format": "jpg",
+            "id": "bddf716ed8dd46a7d34347f1c596931f",
+            "name": "toiletpapier_michael_4_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_4_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58872ea2c4a57cb4aaf34496b9958a37": {
+            "format": "jpg",
+            "id": "58872ea2c4a57cb4aaf34496b9958a37",
+            "name": "toiletpapier_michael_4_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_4_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2561b10d5b18a5a1f7bbf718d7895b79": {
+            "format": "jpg",
+            "id": "2561b10d5b18a5a1f7bbf718d7895b79",
+            "name": "toiletpapier_michael_4_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_4_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "12aa1ae8f15cde50508774b11dc9a6b0": {
+            "format": "jpg",
+            "id": "12aa1ae8f15cde50508774b11dc9a6b0",
+            "name": "toiletpapier_michael_5.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_5.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0421a5208557863d1c6fda057c26c804": {
+            "format": "jpg",
+            "id": "0421a5208557863d1c6fda057c26c804",
+            "name": "toiletpapier_michael_5_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_5_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f757cccf37943250389ab28072e3be19": {
+            "format": "jpg",
+            "id": "f757cccf37943250389ab28072e3be19",
+            "name": "toiletpapier_michael_5_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_5_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1f4b7d08ae2f1cd0bf74c60bd58c4e80": {
+            "format": "jpg",
+            "id": "1f4b7d08ae2f1cd0bf74c60bd58c4e80",
+            "name": "toiletpapier_michael_5_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_5_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22e68c0c49c49c0090ca5af26878771c": {
+            "format": "jpg",
+            "id": "22e68c0c49c49c0090ca5af26878771c",
+            "name": "toiletpapier_michael_6.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_6.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba4c175ad93ecd8ddec7fa213e6cdbfb": {
+            "format": "jpg",
+            "id": "ba4c175ad93ecd8ddec7fa213e6cdbfb",
+            "name": "toiletpapier_michael_6_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_6_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "562bb5889bcac1bd1de35479ea364489": {
+            "format": "jpg",
+            "id": "562bb5889bcac1bd1de35479ea364489",
+            "name": "toiletpapier_michael_6_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_6_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ad35881102cc01dcf0189ab86a7e48c9": {
+            "format": "jpg",
+            "id": "ad35881102cc01dcf0189ab86a7e48c9",
+            "name": "toiletpapier_michael_6_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_6_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39530667b0f01301557196316fde9075": {
+            "format": "jpg",
+            "id": "39530667b0f01301557196316fde9075",
+            "name": "toiletpapier_michael_7.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_7.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e02f95df46fb96c67da4d5ced62834e": {
+            "format": "jpg",
+            "id": "5e02f95df46fb96c67da4d5ced62834e",
+            "name": "toiletpapier_michael_7_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_7_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e33d613306793578de86f32d58a8b7bb": {
+            "format": "jpg",
+            "id": "e33d613306793578de86f32d58a8b7bb",
+            "name": "toiletpapier_michael_7_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_7_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b079fdfeef007a3487d81c137287aac": {
+            "format": "jpg",
+            "id": "1b079fdfeef007a3487d81c137287aac",
+            "name": "toiletpapier_michael_7_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_7_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e93a049e1a1aedeae558c64859b2e57f": {
+            "format": "jpg",
+            "id": "e93a049e1a1aedeae558c64859b2e57f",
+            "name": "toiletpapier_michael_8.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_8.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c62407ccb0133ae22fef8c780e3af95": {
+            "format": "jpg",
+            "id": "6c62407ccb0133ae22fef8c780e3af95",
+            "name": "toiletpapier_michael_8_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_8_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e67fe9b8d97114d00882a9de41fcec39": {
+            "format": "jpg",
+            "id": "e67fe9b8d97114d00882a9de41fcec39",
+            "name": "toiletpapier_michael_8_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_8_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66c7d1b2c9cd84771dcb3a2ddcf5f21e": {
+            "format": "jpg",
+            "id": "66c7d1b2c9cd84771dcb3a2ddcf5f21e",
+            "name": "toiletpapier_michael_9.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_9.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b3f013752b89469507a9c1841683993": {
+            "format": "jpg",
+            "id": "7b3f013752b89469507a9c1841683993",
+            "name": "toiletpapier_michael_8_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_8_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db7a4a6b8577761039b9c249e5fd4112": {
+            "format": "jpg",
+            "id": "db7a4a6b8577761039b9c249e5fd4112",
+            "name": "toiletpapier_michael_9_filter.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_9_filter.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6fa4889d70213e8961b74a5eb5a32d9a": {
+            "format": "jpg",
+            "id": "6fa4889d70213e8961b74a5eb5a32d9a",
+            "name": "toiletpapier_michael_9_flipped.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_9_flipped.jpg",
+            "size": {
+                "width": 2268,
+                "height": 4032
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28b847bd23edcd3a270ebe74577adba7": {
+            "format": "jpg",
+            "id": "28b847bd23edcd3a270ebe74577adba7",
+            "name": "toiletpapier_michael_9_rot.jpg",
+            "path": "file:C:/Users/vaMi220805/OneDrive%20-%20MOSA-RT/School%20bestanden/2022-2023/PROG/OEFENINGEN/prog/6IICT_PROG4/hfst_5_AI/_afbeeldingen/fotos/toiletpapier_michael_9_rot.jpg",
+            "size": {
+                "width": 4032,
+                "height": 2268
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
