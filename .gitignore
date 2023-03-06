@@ -176,3 +176,5 @@ cython_debug/
 hfst_5_AI\_afbeeldingen\fotos
 yolov3_tiny.weights
 yolov3.weights
+yolov3_tiny.weights
+yolov3-tiny-custom.weights
