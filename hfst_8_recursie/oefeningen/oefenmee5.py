@@ -20,7 +20,7 @@ def draaiom_while(woord):
         if len(woord) == 0: 
             return woord
         else:
-            return woord[1:] + woord[0]
+            return woord[::-1]
 
 
 print( draaiom_while("Hallo") )       # ollaH
