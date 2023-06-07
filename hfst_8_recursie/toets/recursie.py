@@ -7,8 +7,7 @@ Tip: de base case is wanneer exponent == 1. Wat is dan de return waarde?
 def bepaal_macht(getal, exponent):
     if exponent == 1:
         return getal
-    uitkomst = getal * bepaal_macht(getal, exponent -1 )
-    return uitkomst
+    return getal * bepaal_macht(getal, exponent -1 )
 
 
 
